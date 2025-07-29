@@ -1,14 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HackPulse Test Page</title>
     <meta charset="UTF-8">
+    <title>HackPulse CTF - Interface 2025</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #00ffff;
+        }
+        main {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #00ffff;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #00ffff;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to HackPulse!</h1>
-    <p>This is just a normal page. Nothing to see here.</p>
+    <header>
+        <h1>HackPulse CTF - Interface 2025</h1>
+        <p>Crack. Capture. Conquer.</p>
+    </header>
 
-    <div style="display: none;" id="secret-flag">flag{view_source_master}</div>
+    <main>
+        <section>
+            <h2>About the Event</h2>
+            <p>HackPulse CTF is a venue-based cybersecurity competition hosted by the Department of Computer Science as part of Interface 2025. This is not your typical event—this is a live cyber arena where only the fastest and smartest will survive.</p>
+        </section>
 
+        <section>
+            <h2>Format</h2>
+            <p>The CTF is split into two progressive rounds:</p>
+            <ul>
+                <li><strong>Round 1:</strong> 10 easy-to-medium challenges in 60 minutes</li>
+                <li><strong>Round 2:</strong> 10 hard-to-extreme challenges in another 60 minutes</li>
+            </ul>
+            <p>Challenges include puzzles related to web, forensics, crypto, and more.</p>
+        </section>
+
+        <section>
+            <h2>Event Schedule</h2>
+            <ul>
+                <li>09:00 - 09:30: Team Registration</li>
+                <li>09:30 - 09:40: Rules Briefing</li>
+                <li>09:40 - 10:40: Round 1 Begins</li>
+                <li>10:40 - 11:00: Break & Results</li>
+                <li>11:00 - 12:00: Round 2 for Top 15 Teams</li>
+                <li>12:00 - 12:30: Winners & Prizes</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Prizes</h2>
+            <p>Winners will receive exclusive tech goodies, certificates, and the right to call themselves the best hackers on campus. All participants receive a certificate of participation.</p>
+        </section>
+
+        <section>
+            <h2>Rules</h2>
+            <p>No internet access other than the challenge platform. No team may share flags or answers with others. Use of AI, external tools, or search engines is strictly prohibited.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Department of Computer Science. All rights reserved.
+    </footer>
+
+    <script>
+        // Note to self: remember to remove this before production deployment
+        let hidden_flag = "flag{inspect_to_conquer}";
+    </script>
 </body>
 </html>
